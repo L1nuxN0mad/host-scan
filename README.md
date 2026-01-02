@@ -1,1 +1,53 @@
-Find domain IP addresses easily and quickly with proxychains and nmap.
+**REQUIREMENTS**
+
+You will be need:
++ Tor proxychains 
+    . `sudo apt install proxychains`
+    . `sudo nano /etc/proxychains.conf`
+- uncomment dynamic_chain
+- comment strict_chain
+scroll all the way down
+- comment: 
+    . socks5 127.0.0.1 9050
+- crtl - 0 + enter
+
++ GIT
+    . `sudo apt install git`
+
+
+
+
+
+
+  
+**INSTALLATION**
+
+1 - `git clone https://github.com/L1nuxN0mad/host-scan.git`
+
+2 - `cd host-scan`
+
+3 - `bash host-scan.sh`
+
+![texto](installation-host-scan.png)
+
+
+
+
+
+
+
+
+**USAGE**
+
+1 - Insert domain (always keeping in mind the extension, which should be "." + com, org, etc.)
+
+![texto](results.png)
+
+
+2 - `cd SCAN-DATA`  (information obtained)
+
+3 - cd (domain entered in step 1)
+
+4 - Verify obtained data -> cat + host.txt or whois.txt
+
+![texto](data.png)
