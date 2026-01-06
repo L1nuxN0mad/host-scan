@@ -28,7 +28,7 @@ scroll all the way down
 
 3 - `bash host-scan.sh`
 
-![texto](installation-host-scan.png)
+![texto](instalation-usage.png)
 
 
 
@@ -41,7 +41,7 @@ scroll all the way down
 
 1 - Insert domain (always keeping in mind the extension, which should be "." + com, org, etc.)
 
-![texto](results.png)
+![texto](usage.png)
 
 
 2 - `cd SCAN-DATA`  (information obtained)
